@@ -1,0 +1,901 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.1335040777713914,
+          51.50671876585946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "41. The Reform Club (regreso)",
+        "Transportation": "Carro tirado por caballos",
+        "Description": "51.5067, -0.1335",
+        "Historia": "\nFogg ofrece100 libras al cochero si llega a tiempo al reform Club antes de que acabe e la hora límitede la apuesta. \n21 de diciembre por la tarde-noche. La gente se concentraba fuera del Reform Club para ser testigos de la apuesta. \n8:40 pm. Andrew Stuart mira su reloj y avisa que solo quedan 5 minutos o Fogg habrá perdido.\n8:42 pm Stuart se habían sentado a la mesa de juego con los otros jugadores pero no paraba de mirar su reloj.\n8:44 pm En el segundo 55, John Sullivan se emocionó al escuhar un estruendo de aplausos, felicitaciones y demás que hizo que los jugadores se levantaran de la mesa.\nEn el segundo 57, se abrió la puerta del salón y en el 60 Fogg apareció acompañado de la multitud y dijo: ¡AQUÍ ESTOY SEÑORES! ¿Por qué Fogg creyó que habían llegado el 21 y no el 20? Porque viajaban hacia el ESTE, delante del sol. Por eso, los días disminuían 4 minutos por cada grado de longitud que atravesaba. Había recorrido 360 grados la tierra y los minutos que ganaban más los que se sumaban, daban exactamente 1 día.\nFogg se casó con Auda el lunes y le ofreció una vida llena de amor y riqueza. ",
+        "Direction": "De Saville Row 7 a The Reform Club en Pall Mall."
+      },
+      "id": "TZ3RO"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.13998971792204884,
+          51.51063267687161
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "40. Casa de Phileas Fogg, Auda y Jean Passepartout (regreso)",
+        "Transportation": "Carro tirado por caballos",
+        "Description": "51.5106, -0.1400",
+        "Historia": "De regreso a casa Fogg pensaba que solo poseía 20 mil libras que ya debía por la apuesta perdida. Haberla ganado no lo haría más rico pero perderla fue su ruina financiera.  Una vez enn su casa, pidió a Passepartout que habilitara una habitación para Auda. Él se encerró en la suya. Passepartout estaba preocupado. Subía y bajaba las escaleras alerta de cualquier desenlace trágico. \n22 de diciembre, 7:30 pm. Fogg pide a Auda que lo reciba en su habitación. Ella acepta. Fogg se disculpa por haberla llevado a Inglaterra porque sabía que en la India corría un grave peligro pues antes era rico y ahora estaba arruinado. Auda le pide que la disculpe si por ella sufrió retrasos en su viaje. Fogg le pide permiso a Auda para dejarle lo que le queda pues no tiene amigos, ni parientes, nada. Auda pregunta a Fog si quiere tener a una amiga y a un pariente y le pide que se casen. Fogg le dice: \"¡LA AMO! Passepartout va a buscar al cura para pedirle que los casara mañana lunes. Eran las 8:05 pm y no lo encontraba por ninguna parte. salió corriendo a la casa de Fogg. Passepartout llega y dice a Fogg que es imposible la boda mañana porque es domingo, no lunes. Que hoy es sábado y que habían llegado 24 horas antes. ¡Solo quedaban 10 minutos!",
+        "Direction": "De la Estación Charing Cross a su casa en Saville Row 7.\n De saville Row 7 a The reform Club en coche tirado por caballos."
+      },
+      "id": "9M0tJ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.12422695353774316,
+          51.50841898814042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "39. Estación de tren Charing Cross (regreso)",
+        "Transportation": "Tren con prima al maquinista",
+        "Description": "51.5084, -0.1242",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "21 de diciembre, 9:50 pm. Llegan a Londres 5 minutos tarde. ¡Había perdido la apuesta!\n Fogg pide a Passepartout que compre provisiones y regresa a su casa en Saville Row 7.",
+        "Direction": "De estación de tren de Liverpool a estación Charing Cross de Londres."
+      },
+      "id": "nBLZR"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -2.9772656327661764,
+          53.40757713149722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "38. Estación de tren Liverpool Lime Street",
+        "Transportation": "Tren con prima al maquinista",
+        "Description": "53.4076, -2.9773",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "21 de diciembre. Fogg busca un tren express que se dirija a Londres, Solo encuentra uno ofreciéndole una prima al maquinista si éste llega antes de 5 horas y media.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Liverpool_Lime_Street#/media/Archivo:Frontage_of_Liverpool_Lime_Street_railway_station.jpg]]\n\nDe los muelles de Liverpool a la Estación de tren  de Liverpool.\nDe la estación de tren de Liverpool a Estación Charing Cross en Londres.\n"
+      },
+      "id": "XcOVk"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -2.997157522150445,
+          53.40457784921426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "37. Muelle Head, Liverpool",
+        "Transportation": "Barco de vapor con casco de hierro \"Henrietta\"",
+        "Description": "53.4046, -2.9972",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "21 de diciembre. Llegan a los muelles de Liverpool. Faltaban solo 6 horas para llegar a Londres.\nUna vez en territorio inglés, Fixse acerca a Fogg y le muestra la orden de arresto a Fogg y lo lleva a la aduana de Liverpool para encerrarlo.\n2:33 pm Passepartout y Fix entran a la aduana y Fix habla en voz baja disculpándose con Fogg. Passepartout grita: \"es libre\". El ladrón había sido capturado 3 días antes. Fogg da un puñetazo en la cara a Fix y salen corriendo.\nFogg renta un coche para los tres (Auda, Passepartout y para él). Fogg pide que los traslade a la estación de tren de Liverpool. ",
+        "Direction": "[[https://es.wikipedia.org/wiki/Pier_Head#/media/Archivo:Liverpool_Pier_Head.jpg]]\n\nDe Queenstown, Dublín a Puerto de Liverpool."
+      },
+      "id": "FzaIm"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -6.196217730739505,
+          53.34498790294114
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "36. Puerto de Dublín (Queenstown)",
+        "Transportation": "Barco de vapor con casco de hierro y superestructura de madera \"Henrietta\"",
+        "Description": "53.3450, -6.1962",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "18 de diciembre, 12:pm. Fogg había tomado el timón después de encerrar a Speedy, pues quería llegar a Liverpool.  En el trayecto Fogg quemó poco a poco la cubierta y el mástil porque el carbón se había terminado. Solo pudieron llegar a Dublín. Fogg libera a Speedy y le paga 60 mil libras por su barco.\n20 de diciembre, 1:00 pm. Llegan al Puerto de Queenstown en Dublín. \nFogg busca un barco americano que transporta correo de Dublín a Liverpool.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Puerto_de_Dubl%C3%ADn#/media/Archivo:DublinPort.jpg]]\n\nLlegada desde Nueva York a Dublín.\nDe Dublín a Liverpool en barco americano que transporta correo."
+      },
+      "id": "9IIOA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -74.00879259958343,
+          40.75206273064393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "35. Muelle 66, Nueva York",
+        "Transportation": "Barco de vapor con casco de hierro y superestructuras de madera \"Henrietta\"",
+        "Description": "\t40.7521, \t-74.0088",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "12 de diciembre, 7:00 am. Fogg sed dirige al Río Hudson en busca de algún navío a punto de zarpar. A lo lejos vió un Barco de carga propulsado por hélice. Era una embarcación pequeña con una pequeña cubierta y dos velas llamado \"Henrietta\" Su capitán era Andrew Speedy de Cardiff.  El \"Henrietta zarparía en 1 hora y  Speedy acordó con Fogg que solo iría hasta Burdeos.  Fogg acepta.",
+        "Direction": "Del muelle de Nueva York a Liverpool.\n"
+      },
+      "id": "fP5uP"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -73.99614079045101,
+          40.751123985225775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "34. Estación de tren de Nueva York (Moynihan Train. Extensión de Penn Station).",
+        "Transportation": "Tren",
+        "Description": "\t40.7511, -73.9961",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "11 de diciembre, 11:15 pm el tren se detuvo muy cerca del muelle de los barcos de vapor de la línea Cunard. Cuando llegan Fogg, Auda, Passepartout y Fix al muelle, el \"China\" que va a Liverpool había salido 45 minutos antes. Deciden pasar la noche en Nueva York y salir al día siguiente.\n",
+        "Direction": "[[https://upload.wikimedia.org/wikipedia/commons/3/34/Moynihan_Train_Hall_-_Entrance_%2851878229291%29.jpg]]\n\nLlegada desde Omaha-Chicago a Nueva York.\nSalen en barco de vapor de la línea Cunard rumbo a Liverpool."
+      },
+      "id": "qG2PO"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -95.92724047004522,
+          41.24978676847934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "33. Estación de Omaha, Nebraska.",
+        "Transportation": "Trineo y tren",
+        "Description": "41.2498, \t-95.9272",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "Era un trineo de dos velas muy grande para cinco personas y la única anera de llegar a Omaha con la neveda que había en ese momento.\n12:45 pm Los cuatro pasajeros bajan en Mudge. Fogg paga al dueño del trineo. Fogg, Auda, Passepartout y Fix caminan hasta la Estación de Omaha. Toman el tren dirección a Chicago y finalmente a Nueva York.\n",
+        "Direction": "Llegada de Estación de tren de Kearny en trineo a Estación de tren de Omaha."
+      },
+      "id": "5QSA1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -99.08379372723056,
+          40.69485973234484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "32. Estación de tren Kearny",
+        "Transportation": "Tren y trineo",
+        "Description": "40.6949, \t-99.0838",
+        "_umap_options": {
+          "color": "CornflowerBlue",
+          "iconUrl": "/uploads/pictogram/skiing.svg"
+        },
+        "Historia": "Una vez llegaron a la Estación Kearny, se hizo un conteo de los pasajeros. Tres de ellos no respondieron, entre ellos Passepartout. Auda y Fogg estaban sanos y salvos y sin un rasguño. Fix, estaba herido en el brazo. Auda lloraba por Passepartout y Fogg, dirigiéndose al capitán del Fuete Kearny le dice que va a encontrará Passepartout ¡vivo o muerto! El capitán manda a 30 de sus hombres con Fogg. Éste ofrece una recompensa de mil libras si salvan a los tres prisioneros de los Sioux.\n2:30 pm. regresa Fogg con los 30 hombres y tres pasajeros, entre ellos Passepartout. Fogg reparte la recompensa. Auda coge las manos de Fogg y sin decir nada las retiene entre las suyas. El próximo tren sale mañana pero a Fix le ofrecen un trineo que puede salir de inmediato con dirección a Omaha.",
+        "Direction": "Llegada de la estación de North Platte a la estación de tren de Kearny.\n Salida de Estación de Kearny a Omaha en trineo."
+      },
+      "id": "bPYrw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -100.804796,
+          41.145715
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "31. Estación de tren Este de North Platte",
+        "Transportation": "Tren de vapor",
+        "Description": "41.1453, -100.8112",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "9 de noviembre, 12:00 pm Se escuchan gritos y detonaciones alrededor del tren. Eran los Siux, un grupo amerindio que vivía en las llanuras centrales. Fogg, Auda y Passepartout luchaban contra ellos. Hirieron al maquinista y Passepartout al verlo y ver que el tren no paraba, se delizó bajo el tren tomado de las cadenas y pudo avanzar por los coches hasta llegar por debajo a la cabeza del tren. Soltó el vagón de equipajes y el tren, ya suelto, se rezagó mientras el resto del tren iba a toda velocidad. Dentro de los vagones pudieron detener el tren a 100 metros de la Estación Kearny.",
+        "Direction": "Llegada de Medicine Bow a North Platte, Nebraska."
+      },
+      "id": "IqqLe"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -106.20084165987612,
+          41.89487895845565
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "30. Antes del puente de Medicine Bow",
+        "Transportation": "Tren de vapor (a gran velocidad)",
+        "Description": "\t41.8949, -106.2008",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "Cuando el tren de vapor llegó muy cerca del puente que estaba a punto de caerse. El maquinista retrocedió una milla para tomar impulso y pasar a toda velocidad. El maquinista mostró seguridad y el tren desafío las leyes de gravedad. Nadie vió el puente y el tren ¡¡¡PASÓ!!! iba tan rápido que el maquinista pudo frenar 5 millas más adelante. El puente cayó.",
+        "Direction": "De Green River a Medicine Bow, Wyoming."
+      },
+      "id": "7xHrz"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -110.16533999999965,
+          38.99217500998313
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "29. Estación de tren Green River",
+        "Transportation": "Tren",
+        "Description": "38.9922, -110.1653",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "7 de noviembre . Se detienen 45 minutos en la Estación Green River porque un guardia discutía con el maquinista sobre el riesgo de la caída del puente antes de llegar a Medicine Bow. El ten continúo hasta poco antes de llegar al puente. El maquinista ideó una estrategia para poder pasar.",
+        "Direction": "Llegan de Ogden a Green River, Wyoming."
+      },
+      "id": "qszCj"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -111.98068380516663,
+          41.224384571509916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "28. Estación de tren, Ogden, Utah.",
+        "Transportation": "Tren de vapor",
+        "Description": "41.2244, \t-111.9807",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "4 de diciembre, 8:00 am después de dormir sobre sábanas blancas y almohadas suaves, el mismo espacio desaparecieron los camastros y se convirtieron nuevamente en asientos normales. A las 6:00 pm, una manada de \"Búfalos\" interceptaba las vías del tren, eran de 10 mil a 12 mil, iban con tal lentitud que tardaron 3 horas en atravesar. El ten siguió su camino al anochecer. \n6 de diciembre. Llegan a Ogden, Utah desde Oakland.\nSe dirigen a estación de tren de Green River.",
+        "Direction": "Llegan de Oakland a Ogden, Utah.\nSalen de Ogden a Green River."
+      },
+      "id": "uHxHq"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -122.27145316931231,
+          37.793821695299215
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "27. Estación Oakland-Jack London Square, California.",
+        "Transportation": "Tren de vapor",
+        "Description": "37.7938, -122.2715",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "Al llegar a San Francisco se hospedarpn en el \"Hotel Internacional\" con un bar bufé donde comieronsopa de ostras, fiambre, pan y queso. Solo pagaron la bebida. Después de desayunar, Fogg se dirige al Consulado inglés para que le sellen su pasaporte. Passepartout sale a comprar armas pues le habían dicho que los pieles rojas asaltaban trenes. A las 5:45, Fogg, Auda, Passepartout y Fixx llegan a la estación del tren de Oakland.\n3 de diciembre, 6:00 pm. Salen en el 1er tren con dirección a Nueva York. ",
+        "Direction": "[[https://en.wikipedia.org/wiki/Oakland%E2%80%93Jack_London_Square_station#/media/File:Jack_London_Square_station_with_Capitol_Corridor_train,_July_2020.jpg]]\n\nSalida desde Oakland a Nueva york pasando por Chicago, Estados Unidos."
+      },
+      "id": "DRiwD"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -122.39178925689595,
+          37.79583862256446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "26. Puerto de San Francisco",
+        "Transportation": "Barco de vapor \"General Grant\"",
+        "Description": "37.7958, -122.3918",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "23 de noviembre. Mientras el \"General Grant\" cruzaba el meridiano 180, que corresponde a las Antípodas de Londres, Passepartout, quien se había negado a cambiar la hora en su reloj durante el viaje, se sintió feliz al ver que todos los relojes que estaban a bordo coincidían con el suyo.  3 de diciembre, 6:45 am. Llegan al Puerto de San Francisco Sir. Fogg, Auda, Passepartout. Eran las 7:00 am cuando pisaron suelo americano. Fix también había abordado el \"General Grant\" y llevaba consigo la orden de aprensión que le dieron en Yokohama. Tenía que llegar a territorio inglés para poder aprehender a Fogg. Rentan un coche para ir a la estación de tren en Oakland.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Puerto_de_San_Francisco#/media/Archivo:Fishermans_Wharf_aerial_view.jpg]]\n\nLlegan a San Francisco en el \"General Grant\""
+      },
+      "id": "KmjcI"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          122.06945264788254,
+          30.621846485312318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "24. Puerto de Shanghái",
+        "Transportation": "Goleta. \"Tankadère\"",
+        "Description": "\t30.6218, 122.0695",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "7 de noviembre, 3 pm. Parten en el \"Tankadère\" y hacen una escala en Singapur para alcanzar al barco americano en Yokohama que va a San Francisco.  Si no alcanzan el \"Carnatic\" el marino habrá perdido 2 mil libras.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Puerto_de_Shangh%C3%A1i#/media/Archivo:Yangshan-Port-Containers.jpg]]\nLlegan a Singapur desde Hong Kong. \n"
+      },
+      "id": "ipmQr"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          114.21321018125792,
+          22.309923567479444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "23. Muelle en Hong Kong. ",
+        "Transportation": "Goleta. \"Tankadère\"",
+        "Description": "22.3099, 114.2132",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "6 de noviembre, 8:00 am Una vez en Hong Kong, Fogg lleva a Auda a buscar a su familiar, Se enteran que ahora vive en Holanda. Deciden pasear en palanquín, una silla de manos para transportar personas con dos varas. Esperan embarcar en el Carnatic que sale al día siguiente cuando terminen de repararlo.\nEl barco zarpa el mismo día a las 8:00 pm, solo suben Passepartout y Fixx. Fogg y Auda embarcan el 7 de noviembre en el \"Tankadère\" de el marino John Bunsby.  Fogg promete 2 mil libras si llegan antes del 14 de noviembre a Yokohama. Antes va al consulado y a la policía para que puedan repatriar a Passepartout, pues no acudió a la cita del 7 de noviembre.",
+        "Direction": "De Hong Kong a Yokohama, Japón."
+      },
+      "id": "ar137"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          88.3437535546696,
+          22.572730199990005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "21. Puerto de Calcuta. ",
+        "Transportation": "Barco \"Rangoon\". Barco de vapor propulsad por hélice",
+        "Description": "22.5727, 88.3438",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "25 de octubre, 7:00 am Llegada al puerto de  Calcuta. \nLa policiia se lleva a Fogg, Passepartout y Auda ante el juez.  Eran acusados por tres sacerdotes hindúes por haber entrado a Malebar Hill con zapatos. Tienen 5 horas para tomar el barco que va a Hong Kong. Pagan fianza de mil libras cada uno. \n12:00 pm. Embarcan el \"Rangoon\" barco de vapor de hierro propulsado por hélice.  Fix se da cuenta de que Fogg sigue libre y decide seguirlo.\nLa travesía dura de 11 a 12 días hasta Hong Kong.",
+        "Direction": "Del Puerto de Calcuta hacia Hong Kong.\n"
+      },
+      "id": "rp04l"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          88.37052290903438,
+          22.56884031436006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "20. Estación de tren Sealdah",
+        "Transportation": "Tren",
+        "Description": "22.5688, 88.3705",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "En el camino se escuchan rugidos de tigres, osos y lobos. ",
+        "Direction": "Llegan a la estación Sealdah.\nParten a Calcuta."
+      },
+      "id": "5ORPa"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          82.97105921893177,
+          25.299304660626092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "19. Estación de tren de Benarés",
+        "Transportation": "Tren",
+        "Description": "25.2993, 82.9711",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "24 de octubre, 11:00 pm. Fogg propone a Auda llevarla hasta Hong Kong y ella acepta. tiene familiares allí.\n12:30 pm. Llegan a la estación Benarés. El Brigadier Cromarty se despide allí. Fogg le dice que nunca olvidará su valiosa ayuda para rescatar a Auda.",
+        "Direction": "Llegan de Allahabad a Benarés."
+      },
+      "id": "gxt4Y"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          81.82562846120379,
+          25.445273471782755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "18. Estación de tren de Allahabad",
+        "Transportation": "Tren",
+        "Description": "25.4453, \t81.8256",
+        "_umap_options": {
+          "color": "Fuchsia",
+          "iconUrl": "/uploads/pictogram/zoo.svg"
+        },
+        "Historia": "22 de 8 pm. Fogg, Passepartout, el Brigadier, el guía y el elefante paran para dormir antes de llegar a la estación Allahabad.\nEn el camino escucharon música y vieron una procesión. Era una ceremonia satí, donde la viuda es quemada junto con su difunto esposo. El guía les cuenta que el rajá se había casado con ella tres meses antes y que ella es hija de un rico mercader, tiene muy buena educación y habla inglés perfectamente. Su nombre es Auda.\nFogg quiere ir a rescatarla. Esperan hasta el 24 de octubre a las 6:00 am para rescatar a Auda.\n10:00 am llegan a la estación Allahabad y Fogg paga muy bien al guía: por sus servicios y con le regala a \"Kiuni\" por su lealtad.\n\n",
+        "Direction": "Llegan en elefante a la estación Allahabad.\nSe dirigen a la estación Benarés."
+      },
+      "id": "vmdaA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          81.55807741997626,
+          25.524618904362285
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "17. Casa de hindú dueño de el elefante \"Kiuni\"",
+        "Transportation": "Elefante",
+        "Description": "25.5246, 81.5581",
+        "_umap_options": {
+          "color": "Fuchsia",
+          "iconUrl": "/uploads/pictogram/zoo.svg"
+        },
+        "Historia": "10 minutos después llegan a casa del hindú, dueño del elefante \"Kiuni\". Fogg lo compra por 2 mil libras. Y otro chico se aproxima y se ofrece de guía y comienza a poner la gualdrapa, una manta de seda que cubre los laterales de la cabalgadura. Pone dos asientos a cada lado. Será recompensado cuando lleguen, advierte Fogg al guía. ",
+        "Direction": "Se dirigen en elefante a la estación Allahabad."
+      },
+      "id": "6MfMV"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          81.55819404394742,
+          25.524521614425183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "16. Estación de tren Manoharganj (antes Rothal)",
+        "Transportation": "Tren",
+        "Description": "25.5245, 81.5582",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "22 de octubre, 8:00 am El tren hace una para inesperada porque la vía del tren aún no estaba terminada.  Fogg busca opciones para seguir adelante y no perder más tiempo. Passepartout dice que vió muy cerca un elefante que podría llevarlos a la estación Allahabad.",
+        "Direction": "De Bombay a Calcuta."
+      },
+      "id": "F00hK"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          72.83551094050753,
+          18.939938010209673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "15. Estación de tren de Bombay",
+        "Transportation": "Locomotora",
+        "Description": "18.9399, 72.8355",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "20 de octubre, 7:55 pm Passepartout llega a la estación de tren, sin compra, golpeado, sin sombrero y descalzo después de haber sido perseguido por tres hindúes fieles a la religión parsi.\n8:10 pm salen de la estación dirección Bombay. \nConocen a un brigadier, Sir Francis Cromarty.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Estaci%C3%B3n_Chhatrapati_Shivaji#/media/Archivo:Victoria_Terminus,_Mumbai.jpg]]\nSale de la Pagoda Malebar Hill hacia la estación de tren en Bombay."
+      },
+      "id": "7NeJd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          72.80413471326028,
+          18.961113106711977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "14, Pagoda Malebar Hill",
+        "Transportation": "A pie",
+        "Description": "18.9611, 72.8041",
+        "_umap_options": {
+          "color": "Cyan",
+          "iconUrl": "/uploads/pictogram/city-gate.svg"
+        },
+        "Historia": "20 de octubre, 4:45 pm Passepartout decide ir a visitar por lo menos un lugar. Se dirige a hacer algunas compras y de paso a visitar la Pagoda Malebar Hill. Entra con sus compras, sombrero y zapatos a un lugar donde solo se permite a los fieles entrar descalzos.",
+        "Direction": "Se dirige a la Pagoda Malebar Hill."
+      },
+      "id": "eDBhw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          72.8434732521726,
+          18.94608837214075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "13. Puerto de Bombay",
+        "Transportation": "Barco de vapor \"Mongolia\"",
+        "Description": "18.9461, 72.8435",
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/ferry.svg",
+          "color": "MediumOrchid"
+        },
+        "Historia": "20 de octubre, 4:30 pm. Fogg, Passepartout y Fix llegan en el \"Mongolia\" a Bombay, pasando por Adén en Yemen.\nLlegan 2 días antes de lo previsto. \nTienen tiempo de pasear antes de que salga el tren a Calcuta.",
+        "Direction": "Llegan a Puerto de Bombay, India."
+      },
+      "id": "6VpX7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          32.563372288978854,
+          29.944910169183572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "12. Puerto de Suez, Suez. Egipto.",
+        "Transportation": "Barco de vapor \"Mongolia\"",
+        "Description": "29.9449, 32.5634",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "9 de octubre, 11:00 am. Llegan a Suez en el \"Mongolia\" Fog, Passepartout y Fix. Fix aborda a passepartout para que le cuente un poco sobre el viaje. Passepartout le dice que salieron el 2 de octubre de Londres y que desde entonces no han dejado de tomar tren, o barco para poder desplazarse.\nFix espera que ya halla llegado la orden de detención. Cree que Fogg es el ladrón.\nLlevan 6 días y medio o 158 horas y media viajando.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Puerto_de_Suez#/media/Archivo:Al_Salam_Carducci_82.JPG]]\nLlegan de Brindisi a Suez, Egipto."
+      },
+      "id": "YQ0Ga"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          17.949750830826105,
+          40.6380342522566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "10. Policía Fronteriza de Brindisi.",
+        "Transportation": "A pie",
+        "Description": "40.6380, 17.9498",
+        "_umap_options": {
+          "color": "Gold",
+          "iconUrl": "/uploads/pictogram/police.svg"
+        },
+        "Historia": "Fogg se dirige a la Policía fronteriza para sellar su pasaporte y dejar evidencia de su itinerario.",
+        "Direction": "Se dirige al Puerto de Brindisi."
+      },
+      "id": "virb0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          17.949034565255573,
+          40.63908733400518
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "11. Puerto de Brindisi",
+        "Transportation": "Barco de vapor \"Mongolia\"",
+        "Description": "40.6391, 17.9490",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "5 de octubre, 5:00 pm Sir Phileas Fogg y Passepartout abordan el barco de vapor \"Mongolia\".\nFogg envía a Passepartou a sellar su pasaporte al Consulado inglés y se topa con Fix, un detective que envía la policía inglesa para averiguar el robo al Banco de Inglaterra. Fixx, se dirige al Consul diciéndole que sosopeha que un tripulante que se encuantra en el \"Mongolia\" puede ser el ladrón.",
+        "Direction": "Se dirigen a Suez, Egipto."
+      },
+      "id": "w4jGU"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          17.939352545673472,
+          40.63415127446052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "9. Estación de tren de Brindisi",
+        "Transportation": "Tren",
+        "Description": "40.6342, 17.9394",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "5 de octubre, 4 pm. Llegan a la estación de tren de Brindisi. ",
+        "Direction": "Llegada a Brindisi."
+      },
+      "id": "HNjZJ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          7.678767000000136,
+          45.06252248450846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "8. Estación de tren Porta Nuova, Turín",
+        "Transportation": "Tren",
+        "Description": "45.0625, 7.6788",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "4 de octubre, 6:35 am Fog y Passepartout llegan a Estación Porta Nuova, Turín. \nToman el tren de las 7:20 am a Brindisi.\n",
+        "Direction": "[[https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Tur%C3%ADn_Puerta_Nueva#/media/Archivo:IMG_7160_-_Torino_-_Stazione_Porta_Nuova_-_Foto_Giovanni_Dall'Orto_18-Mar-2007.jpg]]\nLlegada a Turín."
+      },
+      "id": "JdNwX"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.3734360000001686,
+          48.84510252739304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "7. Gare du Lyon (París)",
+        "Transportation": "Tren",
+        "Description": "48.8451, 2.3734",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "Jueves, 3 de octubre, 7:20 am. Fogg y Passepartout llegan a la Central de Lyon en parís (Gare du Lyon) de París desde Calais.\n",
+        "Direction": " Salen dirección a Turín en tren."
+      },
+      "id": "JDVXq"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          1.8506290445571665,
+          50.95343478158577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "6. Estación de tren de Calais",
+        "Transportation": "Tren",
+        "Description": "50.9534, 1.8506",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg"
+        },
+        "Historia": "3 de octubre, 7:20 am Abordan en tren de 1ª Sir Phileas Fogg y su nuevo ayudante Jean Passepartout.",
+        "Direction": "Se dirigen a estación de tren Gare du Lyon, París."
+      },
+      "id": "3Yfvw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          1.8619065103230525,
+          50.96808994555721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "5. Puerto de Calais, Italia.",
+        "Transportation": "Ferry",
+        "Description": "50.9681, 1.8619",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "3 de octubre, 7:20 am Se dirigen a la estación de tren para viajar de Calais a París.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Calais#/media/Archivo:Calais_pier.jpg]]\nLlegan a estación de tren Calaise de Ville."
+      },
+      "id": "9zb2e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          1.336255427659978,
+          51.12634112576501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "4. Puerto de Dover, Kent.",
+        "Transportation": "Ferry",
+        "Description": "51.1263, 1.3363",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "2 de octubre, 8:45 pm Viaja en Ferry hasta el puerto de Calais con su ayudante Passepartout.",
+        "Direction": "Se dirigen al puerto de Calais, Italia."
+      },
+      "id": "engo5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.12366484401309208,
+          51.50757691193064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "3. Charing Cross",
+        "Transportation": "Carro tirado por caballos",
+        "Description": "51.5076, -0.1237",
+        "_umap_options": {
+          "color": "GreenYellow",
+          "iconUrl": "/uploads/pictogram/rail.svg",
+          "popupShape": "Large"
+        },
+        "Historia": "8:20 pm Llegan a Charing Cross. Con las maletas que su nuevo ayudantepara hace: dos camisas de lana y 3 pares de calcetines, por duplicado, para Sir Fogg y para él . Fogg toma la Guía Bradshaw que contiene las rutas de los barcos de vapor y las estaciones de ferrocarril con todos sus horarios. Toma una bolsa de mano y lanza un fajo de cheques de viajero por 20 mil libras. Fogg y Passepartout en un carro tirado por caballos. Compran dos billetes de 1ª. Fogg sella su pasaporte para poder comprobar su itinerario. Avisan a Andrew Stuart y Gauthier Ralph.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Charing_Cross#/media/Archivo:Charing_Cross_station_MMB_15_375808_465043_465008.jpg]]\n\nDe Charing Croos a Puerto de Dover, Kent."
+      },
+      "id": "CVcu0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.13344209824742848,
+          51.506515520233194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "2. The Reform Club",
+        "Transportation": "Carro tirado por caballos",
+        "Description": "51.5065, -0.1334",
+        "Historia": "Phileas Fogg siempre almorzaba y cenaba a la misma hora, misma sala y misma mesa. 12:47 almorzaba y después se iba al Gran Salón a leer los periódicos: Times hasta las 3:45 pm y luego el Standard. A las 5:40 pm, el Morning Chronicle, hasta la hora de la cena. Había leído la noticia del robo al Banco de Inglaterra hace tres días, el 29 de septiembre, por la cantidad de 50 mil libras.\nJuega al whist con el Ing. Andrew Stuart; banqueros John Sullivan y Samuel Falletin, negociantes; Thomas Flanagan; Gauthier Ralph, administrador del Banco de Inglaterra. Todos ellos ricos y con muy buena reputación. Ese día, miércoles 2 de octubre de 1872, el Morning Chronicle publica un viaje: VUELTA AL MUNDO EN 80 DÍAS. Andrew Stuart apuesta a Fogg 4 mil libras asegurando que ese viaje es imposible de realizar. Suspenden el juego. Fogg va a realizar ese viaje para comprobarles que se puede realizar. Y les dice que volverá el 21 de diciembre a las 8:45 pm aquí. Sale de allí 7:25 pm para tomar el tren a las 8:45 pm. en Charing Cross para ir a Dover.",
+        "Direction": " [[https://www.reformclub.com/]]\n\nRegresa a su casa para hacer maletas."
+      },
+      "id": "0w2g7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -0.139915,
+          51.510546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "1. Casa de Sir Phileas Fogg",
+        "Transportation": "Carro tirado por caballos",
+        "Description": "51.5107, -0.1400",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/horse-riding.svg",
+          "popupShape": "Large",
+          "showLabel": null
+        },
+        "fecha y hora": "1872-10-02T11:30",
+        "Historia": "Vivía solo y tenía contratado a un criado para que le ayudara de 8 a 11:30 de la mañana. Después de desayunar a las 8:23 té y tostadas. A las 9:37 pedía el agua para afeitarse. 9:40 se peinaba y hacía otros asuntos de higiéne personal.  Antes de salir, de despedir a James Forster por haberle llevado el agua para afeitarse a 84°F y no a 86°F. Esperaba a otro joven para contratarlo: Jean Passepartout, un francés que buscaba trabajo pero viviendo bien. Fogg sale de casa a las 11:30 en dirección al Reform Club donde solía almorzar y cenar. Pasaba el tiempo leyendo el periódico y jugando al whist.",
+        "Direction": "Se dirige al The Reform Club. 2 de octubre de 1872. 11:30 am"
+      },
+      "id": "OY76H"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          114.21184280061766,
+          22.307031739056725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "22. Puerto de Hong Kong",
+        "Transportation": "Barco \"Rangoon\". Barco de vapor propulsado por hélice",
+        "Description": "22.3070, 114.2118",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "1 día antes de llegar a Hong Kong, Fix espera que la orden de detención llegue allí, ya que es el último lugar donde tiene jurisdicción para detenerlo, de otra manera tendrá que pedir una orden de extradición. Fix coincide con Passepartout, éste cree que es una agente contratado por los del club para comprobar que Fogg cumpla con el itinerario. Fix le dice que lo va siguiendo porque es el ladrón que robó el banco de Inglaterra y que debe ayudarlo a capturarlo.\n6 de noviembre, 5:00 am Llegan al Puerto de Hong Kong.\n35 días desde que salieron de Londres.",
+        "Direction": "[[https://es.wikipedia.org/wiki/Puerto_de_Hong_Kong#/media/Archivo:Leaving_the_Port_of_Hong_Kong_(7099715617).jpg]]\nDe Calcuta a Hong Kong."
+      },
+      "id": "6hyr4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          139.669447,
+          35.454834
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Name": "25. A unos metros del Puerto de Yokohama",
+        "Transportation": "Barco \"Carnatic\" y luego el \"General Grant\"",
+        "Description": "35.4510, 139.6656",
+        "_umap_options": {
+          "color": "MediumOrchid",
+          "iconUrl": "/uploads/pictogram/ferry.svg"
+        },
+        "Historia": "14 de noviembre, 3:00 pm. Fogg pide al dueño del \"Tankadère\" que haga señales al \"Carnatic\" para que pare y puedan abordar Auda y él. Suben la bandera a media hasta y el \"Carnatic\" acude en su ayuda.\nFogg paga las 2 mil libras al marino. Ya en el \"Carnatic\" se entera de que Passepartout llegó la noche anterior. También había llegado Fix esa noche. Fogg y Auda van a buscar a Passepartout y lo ven trabajando en el circo \"Los Narigudos\"- Passepartout al reconocerlos corre hacia ellos y deja de ser parte de la base de la pirámide humana en la que estaba.\nCambian de barco al llegar al puerto de Yokohama. Embarcan en un moderno barco de vapor americano el \"General Grant\" que va a San Francisco.",
+        "Direction": "De Yokohama a San Francisco en el barco de vapor \"General Grant\""
+      },
+      "id": "D0Gbu"
+    }
+  ]
+}

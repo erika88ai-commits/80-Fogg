@@ -1,0 +1,709 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Casa de Sir Phileas Fogg",
+                "Transportation": "Carro tirado por caballos",
+                "Description": "51.5107, -0.1400"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.14000572886510554,
+                    51.51065396061094
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "The Reform Club",
+                "Transportation": "Carro tirado por caballos",
+                "Description": "51.5065, -0.1334"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.13344209824742848,
+                    51.506515520233194
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Charing Cross",
+                "Transportation": "Carro tirado por caballos",
+                "Description": "51.5076, -0.1237"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.12366484401309208,
+                    51.50757691193064
+                ],
+                "type": "Point"
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Dover",
+                "Transportation": "Ferry",
+                "Description": "51.1263, 1.3363"
+            },
+            "geometry": {
+                "coordinates": [
+                    1.336255427659978,
+                    51.12634112576501
+                ],
+                "type": "Point"
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Calais",
+                "Transportation": "Ferry",
+                "Description": "50.9681, 1.8619"
+            },
+            "geometry": {
+                "coordinates": [
+                    1.8619065103230525,
+                    50.96808994555721
+                ],
+                "type": "Point"
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Calais",
+                "Transportation": "Tren",
+                "Description": "50.9534, 1.8506"
+            },
+            "geometry": {
+                "coordinates": [
+                    1.8506290445571665,
+                    50.95343478158577
+                ],
+                "type": "Point"
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Gare Du Lyon (París)",
+                "Transportation": "Tren",
+                "Description": "48.8451, 2.3734"
+            },
+            "geometry": {
+                "coordinates": [
+                    2.3734360000001686,
+                    48.84510252739304
+                ],
+                "type": "Point"
+            },
+            "id": 6
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Porta Nuova, Turín",
+                "Transportation": "Tren",
+                "Description": "45.0625, 7.6788"
+            },
+            "geometry": {
+                "coordinates": [
+                    7.678767000000136,
+                    45.06252248450846
+                ],
+                "type": "Point"
+            },
+            "id": 7
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Brindisi",
+                "Transportation": "Tren",
+                "Description": "40.6342, 17.9394"
+            },
+            "geometry": {
+                "coordinates": [
+                    17.939352545673472,
+                    40.63415127446052
+                ],
+                "type": "Point"
+            },
+            "id": 8
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Brindisi",
+                "Transportation": "Barco de vapor \"Mongolia\"",
+                "Description": "40.6391, 17.9490"
+            },
+            "geometry": {
+                "coordinates": [
+                    17.949034565255573,
+                    40.63908733400518
+                ],
+                "type": "Point"
+            },
+            "id": 9
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Policía Fronteriza de Brindisi",
+                "Transportation": "A pie",
+                "Description": "40.6380, 17.9498"
+            },
+            "geometry": {
+                "coordinates": [
+                    17.949750830826105,
+                    40.6380342522566
+                ],
+                "type": "Point"
+            },
+            "id": 10
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Suez, Suez",
+                "Transportation": "Barco de vapor \"Mongolia\"",
+                "Description": "29.9449, 32.5634"
+            },
+            "geometry": {
+                "coordinates": [
+                    32.563372288978854,
+                    29.944910169183572
+                ],
+                "type": "Point"
+            },
+            "id": 11
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Bombay",
+                "Transportation": "Barco de vapor \"Mongolia\"",
+                "Description": "18.9461, 72.8435"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.8434732521726,
+                    18.94608837214075
+                ],
+                "type": "Point"
+            },
+            "id": 12
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pagoda Malebar Hill",
+                "Transportation": "A pie",
+                "Description": "18.9611, 72.8041"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.80413471326028,
+                    18.961113106711977
+                ],
+                "type": "Point"
+            },
+            "id": 13
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Bombay",
+                "Transportation": "Locomotora",
+                "Description": "18.9399, 72.8355"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.83551094050753,
+                    18.939938010209673
+                ],
+                "type": "Point"
+            },
+            "id": 14
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Manoharganj (antes Rothal)",
+                "Transportation": "Tren",
+                "Description": "25.5245, 81.5582"
+            },
+            "geometry": {
+                "coordinates": [
+                    81.55819404394742,
+                    25.524521614425183
+                ],
+                "type": "Point"
+            },
+            "id": 15
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Casa de hindú dueño de \"Kiuni\"",
+                "Transportation": "Elefante",
+                "Description": "25.5246, 81.5581"
+            },
+            "geometry": {
+                "coordinates": [
+                    81.55807741997626,
+                    25.524618904362285
+                ],
+                "type": "Point"
+            },
+            "id": 16
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Allahabad",
+                "Transportation": "Tren",
+                "Description": "25.4453, \t81.8256"
+            },
+            "geometry": {
+                "coordinates": [
+                    81.82562846120379,
+                    25.445273471782755
+                ],
+                "type": "Point"
+            },
+            "id": 17
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Benarés",
+                "Transportation": "Tren",
+                "Description": "25.2993, 82.9711"
+            },
+            "geometry": {
+                "coordinates": [
+                    82.97105921893177,
+                    25.299304660626092
+                ],
+                "type": "Point"
+            },
+            "id": 18
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Sealdah",
+                "Transportation": "Tren",
+                "Description": "22.5688, 88.3705"
+            },
+            "geometry": {
+                "coordinates": [
+                    88.37052290903438,
+                    22.56884031436006
+                ],
+                "type": "Point"
+            },
+            "id": 19
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Calcuta. ",
+                "Transportation": "Barco \"Rangoon\". Barco de vapor propulsad por hélice",
+                "Description": "22.5727, 88.3438"
+            },
+            "geometry": {
+                "coordinates": [
+                    88.3437535546696,
+                    22.572730199990005
+                ],
+                "type": "Point"
+            },
+            "id": 20
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Hong Kong",
+                "Transportation": "Barco \"Rangoon\". Barco de vapor propulsado por hélice",
+                "Description": "22.3070, 114.2118"
+            },
+            "geometry": {
+                "coordinates": [
+                    114.21184280061766,
+                    22.307031739056725
+                ],
+                "type": "Point"
+            },
+            "id": 21
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Muelle en Hong Kong. ",
+                "Transportation": "Goleta. \"Tankadère\"",
+                "Description": "22.3099, 114.2132"
+            },
+            "geometry": {
+                "coordinates": [
+                    114.21321018125792,
+                    22.309923567479444
+                ],
+                "type": "Point"
+            },
+            "id": 22
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Shangái",
+                "Transportation": "Goleta. \"Tankadère\"",
+                "Description": "\t30.6218, 122.0695"
+            },
+            "geometry": {
+                "coordinates": [
+                    122.06945264788254,
+                    30.621846485312318
+                ],
+                "type": "Point"
+            },
+            "id": 23
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "A unos metros del Puerto de Yokohama",
+                "Transportation": "Barco \"Carnatic\"",
+                "Description": "35.4510, 139.6656"
+            },
+            "geometry": {
+                "coordinates": [
+                    139.6656404115251,
+                    35.45098217015952
+                ],
+                "type": "Point"
+            },
+            "id": 24
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Yokohama",
+                "Transportation": "Barco de vapor americano \"General Grant\"",
+                "Description": "\t35.4496, 139.6651"
+            },
+            "geometry": {
+                "coordinates": [
+                    139.66508855117502,
+                    35.44957356165959
+                ],
+                "type": "Point"
+            },
+            "id": 25
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de San Francisco",
+                "Transportation": "Barco de vapor \"General Grant\"",
+                "Description": "37.7958, -122.3918"
+            },
+            "geometry": {
+                "coordinates": [
+                    -122.39178925689595,
+                    37.79583862256446
+                ],
+                "type": "Point"
+            },
+            "id": 26
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación Oakland-Jack London Square",
+                "Transportation": "Tren",
+                "Description": "37.7938, -122.2715"
+            },
+            "geometry": {
+                "coordinates": [
+                    -122.27145316931231,
+                    37.793821695299215
+                ],
+                "type": "Point"
+            },
+            "id": 27
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren, Ogden, Utah.",
+                "Transportation": "Tren",
+                "Description": "41.2244, \t-111.9807"
+            },
+            "geometry": {
+                "coordinates": [
+                    -111.98068380516663,
+                    41.224384571509916
+                ],
+                "type": "Point"
+            },
+            "id": 28
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Green River",
+                "Transportation": "Tren",
+                "Description": "38.9922, -110.1653"
+            },
+            "geometry": {
+                "coordinates": [
+                    -110.16533999999965,
+                    38.99217500998313
+                ],
+                "type": "Point"
+            },
+            "id": 29
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Antes del puente de Medicine Bow",
+                "Transportation": "Tren (a gran velocidad)",
+                "Description": "\t41.8949, -106.2008"
+            },
+            "geometry": {
+                "coordinates": [
+                    -106.20084165987612,
+                    41.89487895845565
+                ],
+                "type": "Point"
+            },
+            "id": 30
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Después del puente de medicine Bow",
+                "Transportation": "Tren (volando)",
+                "Description": "\t41.8949, -106.2008"
+            },
+            "geometry": {
+                "coordinates": [
+                    -106.2007761996829,
+                    41.89488296530661
+                ],
+                "type": "Point"
+            },
+            "id": 31
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Este de North Platte",
+                "Transportation": "Tren",
+                "Description": "41.1453, -100.8112"
+            },
+            "geometry": {
+                "coordinates": [
+                    -100.81118667013443,
+                    41.14533098096504
+                ],
+                "type": "Point"
+            },
+            "id": 32
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Kearny",
+                "Transportation": "Tren y trineo",
+                "Description": "40.6949, \t-99.0838"
+            },
+            "geometry": {
+                "coordinates": [
+                    -99.08379372723056,
+                    40.69485973234484
+                ],
+                "type": "Point"
+            },
+            "id": 33
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de Omaha",
+                "Transportation": "Trineo y tren",
+                "Description": "41.2498, \t-95.9272"
+            },
+            "geometry": {
+                "coordinates": [
+                    -95.92724047004522,
+                    41.24978676847934
+                ],
+                "type": "Point"
+            },
+            "id": 34
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Chicago",
+                "Transportation": "Tren",
+                "Description": "41.8787, \t-87.6400"
+            },
+            "geometry": {
+                "coordinates": [
+                    -87.64002747444323,
+                    41.87867298003886
+                ],
+                "type": "Point"
+            },
+            "id": 35
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren de Nueva Yo (Moynihan Train)rk",
+                "Transportation": "Tren",
+                "Description": "\t40.7511, -73.9961"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.99614079045101,
+                    40.751123985225775
+                ],
+                "type": "Point"
+            },
+            "id": 36
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Muelle 66, Nueva York",
+                "Transportation": "Barco de vapor con casco de hierro y superestructuras de madera \"Henrietta\"",
+                "Description": "\t40.7521, \t-74.0088"
+            },
+            "geometry": {
+                "coordinates": [
+                    -74.00879259958343,
+                    40.75206273064393
+                ],
+                "type": "Point"
+            },
+            "id": 37
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Puerto de Dublín (Queenstown)",
+                "Transportation": "Barco de vapor con casco de hierro \"Henrietta\"",
+                "Description": "53.3450, -6.1962"
+            },
+            "geometry": {
+                "coordinates": [
+                    -6.196217730739505,
+                    53.34498790294114
+                ],
+                "type": "Point"
+            },
+            "id": 38
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Muelle Head, Liverpool",
+                "Transportation": "Barco de vapor con casco de hierro \"Henrietta\"",
+                "Description": "53.4046, -2.9972"
+            },
+            "geometry": {
+                "coordinates": [
+                    -2.997157522150445,
+                    53.40457784921426
+                ],
+                "type": "Point"
+            },
+            "id": 39
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Liverpool Lime Street",
+                "Transportation": "Tren con prima al maquinista",
+                "Description": "53.4076, -2.9773"
+            },
+            "geometry": {
+                "coordinates": [
+                    -2.9772656327661764,
+                    53.40757713149722
+                ],
+                "type": "Point"
+            },
+            "id": 40
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Estación de tren Charing Cross (regreso)",
+                "Transportation": "Tren",
+                "Description": "51.5084, -0.1242"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.12422695353774316,
+                    51.50841898814042
+                ],
+                "type": "Point"
+            },
+            "id": 43
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Casa de Phileas Fogg, Auda y Jean Passepartout (regreso)",
+                "Transportation": "Carro tirado por caballos",
+                "Description": "51.5106, -0.1400"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.13998971792204884,
+                    51.51063267687161
+                ],
+                "type": "Point"
+            },
+            "id": 42
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "The Reform Club (regreso)",
+                "Transportation": "Carro tirado por caballos",
+                "Description": "51.5067, -0.1335"
+            },
+            "geometry": {
+                "coordinates": [
+                    -0.1335040777713914,
+                    51.50671876585946
+                ],
+                "type": "Point"
+            },
+            "id": 43
+        }
+    ]
+}

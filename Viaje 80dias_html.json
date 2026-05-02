@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoryMap Interactivo | Plantilla uMap</title>
+  <link rel="icon" type="image/png" href="https://umap.openstreetmap.fr/static/img/favicon.png">
+  <style>
+    /* ----------- ESTILOS BASE ----------- */
+    :root {
+      --bg-color: #f8f8f8;
+      --text-color: #222;
+      --accent-color: #0066cc;
+      --chapter-bg: #ffffffcc;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: linear-gradient(135deg, var(--accent-color), #0099ff);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    /* ----------- CAPÍTULOS ----------- */
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .chapter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: var(--chapter-bg);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 16px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .chapter:hover {
+      transform: scale(1.01);
+    }
+
+    .chapter img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
+    }
+
+    .chapter h2 {
+      margin-bottom: 0.5rem;
+      color: var(--accent-color);
+    }
+
+    .chapter p {
+      text-align: justify;
+      margin-bottom: 1rem;
+    }
+
+    .map-frame {
+      width: 100%;
+      height: 480px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #ddd;
+      background-color: #fafafa;
+    }
+
+    footer a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    /* ----------- RESPONSIVE ----------- */
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.8rem; }
+      .chapter { margin: 2rem 1rem; padding: 1.5rem; }
+      .map-frame { height: 360px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>StoryMap Interactivo</h1>
+    <p>Una narrativa visual con mapas interactivos creados en uMap. Desplázate para descubrir cada capítulo.</p>
+  </header>
+
+  <main>
+
+    <!-- 🔹 CAPÍTULO 1 -->
+    <section class="chapter">
+      <h2>Capítulo 1 — Europa</h2>
+      <img src="assets/imagen1.jpg" alt="Imagen descriptiva del capítulo 1">
+      <p>zona de confort en que se vive... quien sabe, en una de esas encuentran al amor de su vida.</p>
+
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#20/51.510577/-0.139915"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#20/51.510577/-0.139915"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.508288/-0.133445"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.508288/-0.133445// "></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#20/51.510577/-0.139915"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.508088/-0.123661"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.508088/-0.123661// "></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#20/51.510577/-0.139915"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.126341/1.336255"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.126341/1.336255// "></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/51.126341/1.336255
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.953435/1.850629"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.953435/1.850629"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/45.063109/7.678767"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/45.063109/7.678767"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.634151/17.939353"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.634151/17.939353"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/45.063109/7.678767"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.638056/17.949772"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.638056/17.949772"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.634151/17.939353"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/45.063109/7.678767"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.646652/17.948999"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.646652/17.948999"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.638056/17.949772"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#14/40.634151/17.939353"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/45.063109/7.678767"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/48.845103/2.373436"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/50.968090/1.861907"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- 🔹 CAPÍTULO 2 -->
+    <section class="chapter">
+      <h2>Capítulo 2 — Asia</h2>
+      <img src="assets/imagen2.jpg" alt="Imagen descriptiva del capítulo 2">
+      <p>La narrativa se da siguiendo la ruta numerada y haciendo la lectura de cada punto por el que pasa. Es importante ir en orden para no perder el hilo de la historia.</p>
+
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/29.946717/32.563369"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/29.946717/32.563369"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/18.946283/72.843475"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#17/18.946283/72.843475"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/18.961407/72.804133"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/18.961407/72.804133"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/18.940722/72.835509"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/18.940722/72.835509"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.524871/81.558192"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.524871/81.558192"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.525296/81.558080"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.525296/81.558080"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.446559/81.825630"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.446559/81.825630"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.299488/82.971057"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/25.299488/82.971057"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame" 
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.568840/88.370523"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.568840/88.370523"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.573790/88.343752"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.573790/88.343752"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.308349/114.211845"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.308349/114.211845"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.311237/114.213213"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/22.311237/114.213213"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/30.622204/122.069451"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/30.622204/122.069451"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame" 
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/35.456095/139.669447"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/35.456095/139.669447"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- 🔹 CAPÍTULO 3 -->
+    <section class="chapter">
+      <h2>Capítulo 3 — América</h2>
+      <img src="assets/imagen3.jpg" alt="Imagen descriptiva del capítulo 3">
+      <p>En resumen, un viaje totalmente interactivo no solo anima a los usuarios a querer probar nuevas y diferentes experiencia. En este caso, también propone generar conocimiento y mejorar las relaciones sociales entre personas que no conocemos y que nos pueden brindar otro punto de vista diferente al nuestro. Tal vez así podamos mejorar este mundo.</p>
+
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/37.796962/-122.391788"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/37.796962/-122.391788"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/37.795046/-122.271454"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/37.795046/-122.271454"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.225167/-111.980681"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.225167/-111.980681"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/38.992496/-110.165341"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/38.992496/-110.165341"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.895421/-106.200843"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.895421/-106.200843"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.146786/-100.804796"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.146786/-100.804796"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.695937/-99.083794"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.695937/-99.083794"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.250334/-95.927242"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/41.250334/-95.927242"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.752268/-73.996139"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.752268/-73.996139"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.752776/-74.008793"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/40.752776/-74.008793"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </section>
+    <!-- 🔹 CAPÍTULO 4 -->
+    <section class="chapter">
+      <h2>Capítulo 3 — Europa (regreso)</h2>
+      <img src="assets/imagen3.jpg" alt="Imagen descriptiva del capítulo 4">
+      <p>En resumen, un viaje totalmente interactivo no solo anima a los usuarios a querer probar nuevas y diferentes experiencia. En este caso, también propone generar conocimiento y mejorar las relaciones sociales entre personas que no conocemos y que nos pueden brindar otro punto de vista diferente al nuestro. Tal vez así podamos mejorar este mundo.</p>
+
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.345838/-6.196219"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.345838/-6.196219"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+      <iframe class="map-frame"
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.405426/-2.997159"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.405426/-2.997159"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+      <iframe class="map-frame"38
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.408150/-2.977268"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/53.408150/-2.977268"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+      <iframe class="map-frame"39
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.508626/-0.124229"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.508626/-0.124229"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+      <iframe class="map-frame"40
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.511597/-0.139990"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.511597/-0.139990"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+      <iframe class="map-frame"41
+        src="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.507604/-0.133504"></iframe><p><a href="//umap.openstreetmap.fr/es/map/viaje-alrededor-del-mundo-en-80-dias_1399121?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#18/51.507604/-0.133504"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      </section>
+
+  </main>
+
+  <footer>
+    <p>Creado con <a href="https://umap.openstreetmap.fr/es/" target="_blank">uMap</a> y HTML5 · Plantilla adaptable por <strong>María Ariza</strong> · © 2025</p>
+  </footer>
+
+</body>
+</html>
+
